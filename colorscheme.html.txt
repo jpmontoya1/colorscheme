@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Scheme Assignment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50; /* A nice green for the header background */
+            color: white;
+            font-size: 1.5em; /* Larger font size */
+            font-family: 'Georgia', serif; /* Different font style */
+            text-shadow: 2px 2px 4px #000000; /* Text shadow for effect */
+        }
+        .color-box {
+            width: 100%;
+            height: 50px;
+            border: 1px solid #ccc;
+        }
+        /* Specific color cells for background */
+        .deep-blue-bg { background-color: #003366; }
+        .vibrant-cyan-bg { background-color: #00BFFF; }
+        .golden-yellow-bg { background-color: #FFD700; }
+        .fiery-orange-red-bg { background-color: #FF4500; }
+    </style>
+</head>
+<body>
+
+    <h1>My Awesome Color Scheme</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">Tropical Bird Plumage Palette</th>
+            </tr>
+            <tr>
+                <th>Color Name</th>
+                <th>Color Swatch</th>
+                <th>Hex Value</th>
+                <th>RGB Value</th>
+                <th>HSL Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Deep Blue</td>
+                <td class="deep-blue-bg"></td>
+                <td>#003366</td>
+                <td>rgb(0, 51, 102)</td>
+                <td>hsl(210, 100%, 20%)</td>
+            </tr>
+            <tr>
+                <td>Vibrant Cyan</td>
+                <td class="vibrant-cyan-bg"></td>
+                <td>#00BFFF</td>
+                <td>rgb(0, 191, 255)</td>
+                <td>hsl(195, 100%, 50%)</td>
+            </tr>
+            <tr>
+                <td>Golden Yellow</td>
+                <td class="golden-yellow-bg"></td>
+                <td>#FFD700</td>
+                <td>rgb(255, 215, 0)</td>
+                <td>hsl(51, 100%, 50%)</td>
+            </tr>
+            <tr>
+                <td>Fiery Orange-Red</td>
+                <td class="fiery-orange-red-bg"></td>
+                <td>#FF4500</td>
+                <td>rgb(255, 69, 0)</td>
+                <td>hsl(16, 100%, 50%)</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
+
